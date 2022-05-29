@@ -106,7 +106,7 @@ const sentPaymentConfarmationEmail = (payment) => {
       html: `<div>
       <p>Hi, ${userName} you give a purchase request to Bit & Bytes for ${productName} your requested
       product code is ${productCode}. your requested prodct price per unit is ${productPrice} and you
-       requested for ${orderQuantity} items. your total cost will be  $ ${totalPrice}. And You paid the bill $ ${totalPrice}.we are ship your product as soon as possible and inform you soon,keep in touch.
+       requeste for ${orderQuantity} items. your total cost will be  $ ${totalPrice}. And You paid the bill $ ${totalPrice}.we are ship your product as soon as possible and inform you soon,keep in touch.
         your Transaction Id is ${transactionId}.<p/>
       <img src=${productImage} alt="" />
       </div>`,
